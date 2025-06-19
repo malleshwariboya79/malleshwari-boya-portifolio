@@ -9,11 +9,11 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              John Doe
+              Malleshwari Boya
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Full Stack Developer & UI/UX Designer
+            Full Stack Developer & Software Developer
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
             I create beautiful, responsive websites and applications that deliver exceptional user experiences.
@@ -21,19 +21,23 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="#"
+              href="https://github.com/malleshwariboya79"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors duration-300"
             >
               <Github className="w-6 h-6 text-white" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/malleshwariboya"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors duration-300"
             >
               <Linkedin className="w-6 h-6 text-white" />
             </a>
             <a
-              href="#"
+              href="mailto:malleshwari.tech@gmail.com"
               className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors duration-300"
             >
               <Mail className="w-6 h-6 text-white" />
