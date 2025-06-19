@@ -1,5 +1,5 @@
 
-import { Code, Database, Globe, Palette, Server, Smartphone } from 'lucide-react';
+import { Code, Database, Globe, Server, Smartphone } from 'lucide-react';
 
 const Skills = () => {
   const skills = [
@@ -18,7 +18,7 @@ const Skills = () => {
     {
       icon: Database,
       title: 'Database',
-      description: 'PostgreSQL, MongoDB, Redis',
+      description: 'MongoDB, Redis',
       color: 'from-purple-400 to-purple-600'
     },
     {
@@ -32,12 +32,6 @@ const Skills = () => {
       title: 'Mobile Development',
       description: 'React Native, Flutter',
       color: 'from-pink-400 to-pink-600'
-    },
-    {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Figma, Adobe XD, User Research',
-      color: 'from-cyan-400 to-cyan-600'
     }
   ];
 
