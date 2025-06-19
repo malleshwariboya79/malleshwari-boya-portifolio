@@ -1,7 +1,19 @@
 
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
+  const titles = ['MERN Developer', 'Software Developer', 'Full Stack Developer'];
+  const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
       <div className="container mx-auto px-6 text-center">
@@ -12,9 +24,11 @@ const Hero = () => {
               Malleshwari Boya
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Full Stack Developer & Software Developer
-          </p>
+          <div className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto h-8">
+            <span className="transition-all duration-500 ease-in-out">
+              {titles[currentTitleIndex]}
+            </span>
+          </div>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
             I create beautiful, responsive websites and applications that deliver exceptional user experiences.
           </p>

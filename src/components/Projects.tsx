@@ -5,49 +5,49 @@ const Projects = () => {
   const projects = [
     {
       title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration.',
+      description: 'A full-stack MERN e-commerce solution with payment integration and admin dashboard.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
       github: '#',
       live: '#'
     },
     {
       title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates.',
+      description: 'A collaborative task management application built with React and Node.js backend.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       github: '#',
       live: '#'
     },
     {
       title: 'Weather Dashboard',
-      description: 'A beautiful weather dashboard with location-based forecasts.',
+      description: 'A responsive weather dashboard with location-based forecasts using React and APIs.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop',
-      technologies: ['React', 'Tailwind CSS', 'OpenWeather API'],
+      technologies: ['React', 'JavaScript', 'Tailwind CSS', 'Weather API'],
       github: '#',
       live: '#'
     },
     {
       title: 'Social Media App',
-      description: 'A modern social media platform with real-time messaging.',
+      description: 'A full-stack social media platform with real-time features using MERN stack.',
       image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=250&fit=crop',
-      technologies: ['React Native', 'Firebase', 'Redux'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
       github: '#',
       live: '#'
     },
     {
       title: 'Portfolio Website',
-      description: 'A responsive portfolio website built with modern technologies.',
+      description: 'A responsive portfolio website built with React and Tailwind CSS.',
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop',
-      technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
+      technologies: ['React', 'Tailwind CSS', 'JavaScript'],
       github: '#',
       live: '#'
     },
     {
-      title: 'Learning Platform',
-      description: 'An online learning platform with video courses and quizzes.',
-      image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=400&h=250&fit=crop',
-      technologies: ['Next.js', 'Supabase', 'Stripe'],
+      title: 'Chat Application',
+      description: 'A real-time chat application built with React Native for mobile platforms.',
+      image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=250&fit=crop',
+      technologies: ['React Native', 'Node.js', 'MongoDB', 'Socket.io'],
       github: '#',
       live: '#'
     }
