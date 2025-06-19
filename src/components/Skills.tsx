@@ -18,7 +18,7 @@ const Skills = () => {
     {
       icon: Database,
       title: 'Database',
-      description: 'MongoDB, Redis',
+      description: 'MongoDB, SQL',
       color: 'from-purple-400 to-purple-600'
     },
     {

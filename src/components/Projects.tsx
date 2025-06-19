@@ -12,8 +12,8 @@ const Projects = () => {
       live: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application built with React and Node.js backend.',
+      title: 'Task Management website',
+      description: 'A collaborative task management application with real-time updates.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop',
       technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       github: '#',
